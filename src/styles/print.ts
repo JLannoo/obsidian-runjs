@@ -1,0 +1,1 @@
+export const printStyle = "color: #fff; background: #f90; padding: 2px 6px; border-radius: 3px; font-weight: bold;";

@@ -1,0 +1,28 @@
+{
+  "name": "obsidian-runjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "tsup src/main.ts --format cjs --minify --watch --outDir ./",
+    "build": "tsup src/main.ts --format cjs --minify --outDir ./",
+    "v:bump": "node version-bump.mjs",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
+  },
+  "keywords": [],
+  "author": "JLannoo",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.44.0",
+    "ts-node": "^10.9.1",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.32.2"
+  },
+  "dependencies": {
+    "obsidian": "^1.2.8"
+  }
+}

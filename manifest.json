@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-runjs",
+	"name": "Obsidian Run JS",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "This plugin allows you to run JavaScript code in Obsidian.",
+	"author": "JLannoo",
+	"authorUrl": "https://github.com/jlannoo/obsidian-runjs",
+	"isDesktopOnly": false
+}
